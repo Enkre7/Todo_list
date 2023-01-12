@@ -22,7 +22,6 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     background-color: rgb(51, 66, 74);
-    
 }
 
 input::placeholder {
@@ -54,8 +53,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    border: 1px solid rgb(10, 102, 194);
-    background-color: rgb(10, 102, 194);
+    border: 1px solid #B2B2B2;
+    background-color: #B2B2B2;
     color: rgb(255, 255, 255);
 }
-
