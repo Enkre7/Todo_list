@@ -1,0 +1,18 @@
+/* Affichage différent en cas de mode sombre */
+
+@media(prefers-color-scheme: dark) {
+
+    body {
+        background-color: #202124;
+        color: #B2B2B2;
+    }
+}
+
+/* Affichage différent en cas de mode clair */
+
+@media(prefers-color-scheme: light) {
+
+    body {
+        color: #4862ae;
+    }
+}
