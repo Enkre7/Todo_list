@@ -1,5 +1,4 @@
 /* Affichage différent en cas de mode sombre */
-
 @media(prefers-color-scheme: dark) {
 
     body {
@@ -9,10 +8,54 @@
 }
 
 /* Affichage différent en cas de mode clair */
-
 @media(prefers-color-scheme: light) {
 
     body {
         color: #4862ae;
     }
 }
+
+input[type=text] {
+    width: 20%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(51, 66, 74);
+    
+}
+
+input::placeholder {
+    color: #e1e1e1;
+}
+
+textarea {
+    width: 40%;
+    text-align: center;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: rgb(56, 71, 80);
+    color: #B2B2B2;
+}
+
+input[type=submit] {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid rgb(5, 160, 160);
+    font-size: 20px;
+    color: rgb(5, 160, 160);
+    padding: 20px;
+    width: 200px;
+    position: relative;
+    margin-left: auto; 
+    margin-right: 300px;
+    border-radius: 7px;
+    transition-duration: 0.4s;
+}
+
+input[type=submit]:hover {
+    border: 1px solid rgb(10, 102, 194);
+    background-color: rgb(10, 102, 194);
+    color: rgb(255, 255, 255);
+}
+

@@ -70,15 +70,13 @@
         }
     }
 
-
     // Si bouton de suppression cliqué supprime la tâche correspondante
     if(isset($_POST['delete']) and is_numeric($_POST['delete']))
     {
         $delete = $_POST['delete'];
-
         $lines = file('task.json');
 
-        $row_to_del_to_del = file_get_contents('task.json');
+        $row_to_del = file_get_contents('task.json');
         $row_to_del = str_replace($lines[$delete], '', $row_to_del);
         file_put_contents('task.json', $row_to_del);
 
